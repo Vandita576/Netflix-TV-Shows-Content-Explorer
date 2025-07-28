@@ -15,9 +15,9 @@ Certain fields may show None due to missing or incomplete data in the original d
 File Name	              Description
 streamlit netflix.py	  Main Streamlit app file
 content_df.pkl	        Preprocessed content DataFrame (movies + series)
-cosine_sim.pkl	        Cosine similarity matrix for recommendations
 README.md	              Project overview and instructions
 It also includes codes in the form of python (.py) file and jupyter notebook (.ipynb)
+
 
 📦 Requirements
 Python 3.7+
@@ -30,6 +30,8 @@ Joblib
 The UI is optimized for full-width viewing. Best viewed in desktop browsers at 100% to 90% zoom.
 Language codes like en, ko, hi are mapped to user-friendly names for display.
 Missing data (e.g., None for director) is due to gaps in the source dataset.
+
+The total project size is approximately 7.6 GB, which exceeds GitHub’s file size limits. Therefore, e.g., cosine_sim.pkl is NOT included in this repository.
 
 📄 License
 This project is for educational purposes. Attribution encouraged if re-used.
